@@ -7,6 +7,9 @@ tar vxfz node_exporter-1.1.2.linux-armv7.tar.gz
 sudo mv prometheus-2.27.1.linux-armv7/ prometheus/
 sudo mv node_exporter-1.1.2.linux-armv7/ node_exporter/
 
+sudo chown -R pi:pi /home/pi/prometheus
+sudo chown -R pi:pi /home/pi/node_exporter
+
 sudo rm prometheus-2.27.1.linux-armv7.tar.gz 
 sudo rm node_exporter-1.1.2.linux-armv7.tar.gz 
 
